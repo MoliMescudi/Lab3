@@ -9,8 +9,6 @@ Tasks:
 2) Aidan
 3) Jere
 
-Certainly! A good README file provides essential information about the codebase and how to use it. Here's an example README file for your `myStack` class implementation:
-
 ---
 
 # myStack Implementation
