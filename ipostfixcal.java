@@ -1,1 +1,4 @@
-    int calculate(IStack stack, String postFixString);
+    interface ipostfixcal implements iStack{
+     int calculate(iStack stack, String postFixString);
+
+}
