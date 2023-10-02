@@ -1,6 +1,6 @@
 # Lab3
 
-jere, ali, aidan, nikan
+Jere, Ali, Aidan, Nikan
 
 project manager: ali
 
