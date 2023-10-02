@@ -2,8 +2,9 @@
 
 jere, ali, aidan, nikan
 
-task 1:
-task 2:
-task 3:
-task 4:
+project manager: ali
+task 1: nikan
+task 2: aiden
+task 3:jere
+
 
