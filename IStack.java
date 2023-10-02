@@ -1,4 +1,4 @@
-interface istack {
+interface IStack {
     void push (Character c);
     Character pop();
     Character peek();
