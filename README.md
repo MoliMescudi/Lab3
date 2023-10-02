@@ -4,10 +4,10 @@ jere, ali, aidan, nikan
 
 project manager: ali
 
-task 1: nikan
-task 2: aiden
-task 3:jere
-
+Tasks:
+1) Nikan
+2) Aidan
+3) Jere
 
 Certainly! A good README file provides essential information about the codebase and how to use it. Here's an example README file for your `myStack` class implementation:
 
