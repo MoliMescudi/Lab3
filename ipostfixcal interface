@@ -1,3 +1,0 @@
-public interface ipostfixcal {
-    int calculate(IStack stack, String postFixString);
-}
