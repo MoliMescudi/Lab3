@@ -59,31 +59,3 @@ Checks if the stack is empty and returns `true` if it is, `false` otherwise.
    boolean isEmpty = stack.isEmpty();
    ```
 
-## Important Note:
-
-- This implementation uses a LinkedList for internal storage, providing flexibility and efficient stack operations.
-- Ensure to handle null values appropriately when popping or peeking from an empty stack.
-
-Feel free to use this custom stack implementation in your Java projects!
-
----
-
-Make sure to include this README file in your project repository. You can modify and expand it according to your specific project requirements or add information about the `IPostFixCal` interface and how it can be used in conjunction with this custom stack implementation.
-
-```java
-stack.push('A');
-stack.push('B');
-```
-
-```java
-Character poppedElement = stack.pop();
-Peek the Top Element:
-```
-```java
-Character topElement = stack.peek();
-Check if Stack is Empty:
-```
-```java
-boolean isEmpty = stack.isEmpty();
-Important Note:
-```
