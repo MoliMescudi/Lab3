@@ -1,9 +1,11 @@
 # Lab3
 
-jere, ali, aidan, nikan
+Jere, Ali, Aidan, Nikan
 
-task 1:
-task 2:
-task 3:
-task 4:
+project manager: ali
+
+Tasks:
+1) Nikan
+2) Aidan
+3) Jere
 

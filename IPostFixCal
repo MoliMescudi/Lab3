@@ -1,0 +1,57 @@
+
+public class myPostFixCal implements IPostFixCal{
+
+	@Override
+	public int calculate(IStack stack, String postFixString) {
+		for(int i = 0; i<postFixString.length(); i++) {
+			int push = 1;
+			int type = -1;
+		
+			try {
+				if(postFixString.charAt(i)=='+') {
+					push = 0;
+					type = 0;
+				}
+				else if(postFixString.charAt(i) == '-') {
+					push = 0;
+					type = 1;
+				}
+				else if(postFixString.charAt(i) == '/') {
+					push = 0;
+					type = 2;
+				}
+				else if(postFixString.charAt(i) == '*') {
+					push = 0;
+					type = 3;
+					
+				}
+				if(push == 1) {
+					stack.push(postFixString.charAt(i));
+				}
+				else {
+					int num1 = stack.pop() - '0';
+					int num2 = stack.pop() - '0';
+					int numOut = 0;
+					if(type == 0) {
+						numOut = num2 + num1;
+					}
+					else if(type == 1) {
+						numOut = num2 - num1;
+					}
+					else if(type == 2) {
+						numOut = num2 / num1;
+					}
+					else if(type == 3) {
+						numOut = num2 * num1;
+					}	
+					stack.push((char) (numOut+'0'));
+				}
+			} catch (Exception e) {
+				System.out.println("Invalid String");
+				e.printStackTrace();
+			}
+		}
+		return stack.pop() - '0';
+	}
+
+}
